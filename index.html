@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Portfolio | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">
+            <span class="logo-text">Portfolio</span>
+            <span class="logo-dot">.</span>
+          </a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact-btn">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="floating-elements">
+          <div class="floating-element"></div>
+          <div class="floating-element"></div>
+          <div class="floating-element"></div>
+          <div class="floating-element"></div>
+          <div class="floating-element"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">👋 Welcome to my portfolio</div>
+        <h1>I'm <span class="highlight">Alex Johnson</span></h1>
+        <p class="hero-subtitle">Full Stack Developer & UI/UX Designer</p>
+        <p class="hero-description">
+          Crafting digital experiences that combine beautiful design with
+          powerful functionality. Specialized in modern web technologies and
+          user-centered design.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="cta-button primary">View My Work</a>
+          <a href="#contact" class="cta-button secondary">
+            <i class="fas fa-envelope"></i>
+            Get In Touch
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">25+</span>
+            <span class="stat-label">Clients</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get to know me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Passionate about creating digital solutions that make a difference
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-intro">
+              <h3>
+                Hello! I'm Alex Johnson, a dedicated Full Stack Developer based
+                in San Francisco.
+              </h3>
+              <p>
+                With over 3 years of experience in web development, I specialize
+                in creating scalable, user-friendly applications that solve
+                real-world problems. My journey began with a Computer Science
+                degree, and I've since worked with startups and established
+                companies to bring innovative ideas to life.
+              </p>
+            </div>
+
+            <div class="about-details">
+              <div class="detail-grid">
+                <div class="detail-item">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <h4>Education</h4>
+                    <p>B.S. Computer Science<br />Stanford University</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fas fa-briefcase"></i>
+                  <div>
+                    <h4>Experience</h4>
+                    <p>3+ Years<br />Full Stack Development</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h4>Location</h4>
+                    <p>San Francisco, CA<br />Open to Remote</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fas fa-coffee"></i>
+                  <div>
+                    <h4>Interests</h4>
+                    <p>Photography, Travel<br />Open Source</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-achievements">
+              <h4>Key Achievements</h4>
+              <ul class="achievements-list">
+                <li>
+                  <i class="fas fa-check"></i> Led development of award-winning
+                  e-commerce platform
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Contributed to 10+ open-source
+                  projects
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Mentored 15+ junior developers
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Speaker at 3 tech conferences
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <div class="image-placeholder">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="image-decoration"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+                <div class="skill-level" data-level="80"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+                <div class="skill-level" data-level="75"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+                <div class="skill-level" data-level="70"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>MongoDB</span>
+                <div class="skill-level" data-level="65"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+                <div class="skill-level" data-level="60"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-figma"></i>
+                <span>Figma</span>
+                <div class="skill-level" data-level="70"></div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <span>VS Code</span>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            A showcase of my recent work and achievements
+          </p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card featured">
+            <div class="project-image">
+              <div class="image-placeholder">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>EcoShop - Sustainable E-commerce</h3>
+                <span class="project-status">Featured</span>
+              </div>
+              <p>
+                A full-stack e-commerce platform promoting sustainable products
+                with advanced filtering, real-time inventory, and carbon
+                footprint tracking. Built with React, Node.js, and MongoDB.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Stripe</span>
+                <span>AWS</span>
+              </div>
+              <div class="project-metrics">
+                <div class="metric">
+                  <span class="metric-value">15K+</span>
+                  <span class="metric-label">Users</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">98%</span>
+                  <span class="metric-label">Uptime</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="image-placeholder">
+                <i class="fas fa-tasks"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>TaskFlow Pro</h3>
+              </div>
+              <p>
+                Advanced project management tool with team collaboration, time
+                tracking, and AI-powered insights. Features real-time
+                notifications and integration with popular tools.
+              </p>
+              <div class="project-tech">
+                <span>Vue.js</span>
+                <span>Express</span>
+                <span>PostgreSQL</span>
+                <span>Socket.io</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="image-placeholder">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Analytics Dashboard</h3>
+              </div>
+              <p>
+                Real-time analytics dashboard for business intelligence with
+                interactive charts, custom reports, and data visualization.
+                Handles millions of data points efficiently.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>D3.js</span>
+                <span>Python</span>
+                <span>Redis</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="image-placeholder">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="Live Demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>HealthTracker App</h3>
+              </div>
+              <p>
+                Cross-platform mobile app for health and fitness tracking with
+                wearable device integration, meal planning, and progress
+                analytics.
+              </p>
+              <div class="project-tech">
+                <span>React Native</span>
+                <span>Firebase</span>
+                <span>GraphQL</span>
+                <span>TypeScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-cta">
+          <p>Want to see more of my work?</p>
+          <a href="#" class="cta-button secondary">
+            <i class="fab fa-github"></i>
+            View All Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Ready to bring your ideas to life? Let's discuss your next project
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>alex.johnson@email.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>San Francisco, CA</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Response Time</h4>
+                <p>Within 24 hours</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="cta-button primary">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <h3>Alex Johnson</h3>
+              <p>
+                Full Stack Developer crafting digital experiences that make a
+                difference.
+              </p>
+            </div>
+            <div class="footer-links">
+              <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                  <li><a href="#">Web Development</a></li>
+                  <li><a href="#">UI/UX Design</a></li>
+                  <li><a href="#">Consulting</a></li>
+                  <li><a href="#">Code Review</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                  <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                  <a href="#" title="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 Alex Johnson. All rights reserved.</p>
+            <div class="footer-legal">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
