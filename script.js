@@ -1,3 +1,39 @@
+// Preloader Animation
+document.addEventListener("DOMContentLoaded", function () {
+  const preloader = document.getElementById("preloader");
+  const letters = document.querySelectorAll(".letter");
+  const body = document.body;
+
+  // Prevent scrolling during preloader
+  body.style.overflow = "hidden";
+
+  // Animate letters appearing one by one
+  letters.forEach((letter, index) => {
+    letter.style.animationDelay = `${index * 0.1}s`;
+  });
+
+  // Start the sequence
+  setTimeout(() => {
+    // Add fly-away animation to letters
+    letters.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.classList.add("fly-away");
+      }, index * 50);
+    });
+
+    // Hide preloader and show main content
+    setTimeout(() => {
+      preloader.classList.add("hidden");
+      body.style.overflow = "auto";
+
+      // Remove preloader from DOM after transition
+      setTimeout(() => {
+        preloader.remove();
+      }, 500);
+    }, 1000);
+  }, 4000); // Total animation duration: 4 seconds
+});
+
 // Mobile Navigation Toggle
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -33,9 +69,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
   if (window.scrollY > 50) {
-    navbar.style.background = "rgba(255, 255, 255, 0.98)";
+    navbar.style.background = "rgba(26, 26, 26, 0.98)";
   } else {
-    navbar.style.background = "rgba(255, 255, 255, 0.95)";
+    navbar.style.background = "rgba(26, 26, 26, 0.95)";
   }
 });
 
